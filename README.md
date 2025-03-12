@@ -65,7 +65,7 @@ Here, we generated a correlation heatmap to verify how features correlate with e
 - Accuracy remains high for most models, but precision and recall fluctuate, showing that some models favor either false positives or false negatives.
 - Logistic Regression and Decision Trees performed better in terms of balancing precision and recall.
 
-## Model Comparison
+## Model Comparisons
 
 I trained and compared four classification models:
 
@@ -135,7 +135,7 @@ After hyperparameter tuning, we reevaluated model performance on all classifiers
 - KNN was the least accurate, as expected, since it performs poorly with big data.
 - SVM worked correctly but was computationally expensive, taking a lot longer to train.
 
-## Next Steps & Recommendations 
+## Next Steps & Recommendations
 Based on the findings, the data is a massive class imbalance with the overwhelming majority of customers declining the offer of long-term deposit. This may have impacted model performance, especially recall and precision scores. To enhance predictive performance, measures in the next phase should include data balancing methods or undersampling the majority class in order to achieve a balanced dataset.
 
 Additionally, decision tree model feature importance analysis revealed that contact method, level of education, and status of loan are critical drivers of customer response. Given that customers who were contacted through cellular phones showed a considerably greater rate of acceptance, the bank can enhance its marketing approach by prioritizing mobile over landline communication. Segmenting according to job type and education level would also allow more responsive segments of customers to be targeted.
