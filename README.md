@@ -8,8 +8,6 @@
 * [Data Preparation](#Data-Preparation)
 * [Baseline Model Comparison](#Baseline-Model-Comparison)
 * [Model Comparisons](#Model-Comparisons)
-* [Improving the Model](Improving-the-Model)
-* [Next Steps & Recommendations](#Next-Steps-&-Recommendations)
 
 ## Business Understanding
 
