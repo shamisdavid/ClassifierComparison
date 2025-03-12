@@ -24,14 +24,21 @@ To know more about the dataset, I carried out an Exploratory Data Analysis, by u
 ### Countplot of Subscription Outcomes
 The countplot was employed to plot the proportion of customers who accepted (yes) versus those who declined (no) the offer. 
 
+![image](https://github.com/user-attachments/assets/e9e52efd-d0cb-4a1e-ab15-0368ccf269f2)
+
 The plot readily indicates that the data is highly imbalanced and that the majority of customers declined the offer. The imbalance needs to be addressed in modeling.
-Scatterplot Analysis
+
+## Scatterplot Analysis
 Scatterplots were used to examine correlations between attributes such as age vs. balance to determine if monetary factors play an important role in customer decision-making.
+
+![image](https://github.com/user-attachments/assets/f26b6fc7-4ddf-431a-b070-4904ea428e94)
 
 The plot revealed no correlation, suggesting that a number of different factors contribute to a customer's willingness to subscribe.
 
-Heatmap of Feature Correlations
+## Heatmap of Feature Correlations
 Here, we generated a correlation heatmap to verify how features correlate with each other. 
 
-We observed high correlations between features such as employment change rate and consumer price index, indicating that the state of the economy affects customer decisions.
+![image](https://github.com/user-attachments/assets/2d7e5232-dab2-42ce-aaad-e3bb5cb47403)
+
+There is high correlations between features such as employment change rate and consumer price index, indicating that the state of the economy affects customer decisions.
 
