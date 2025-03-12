@@ -28,7 +28,7 @@ The countplot was employed to plot the proportion of customers who accepted (yes
 
 The plot readily indicates that the data is highly imbalanced and that the majority of customers declined the offer. The imbalance needs to be addressed in modeling.
 
-## Scatterplot Analysis
+### Scatterplot Analysis
 Scatterplots were used to examine correlations between attributes such as age vs. call duration to determine if monetary factors play an important role in customer decision-making.
 
 ![image](https://github.com/user-attachments/assets/f26b6fc7-4ddf-431a-b070-4904ea428e94)
